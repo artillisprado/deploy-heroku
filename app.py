@@ -1,5 +1,7 @@
 import streamlit as st
 
+print("Hello World")
+
 st.set_page_config(
     page_title = "Teste do Streamlit por Gabriel Alves",
     layout = "wide",
