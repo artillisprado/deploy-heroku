@@ -9,7 +9,6 @@ st.set_page_config(
     }
 )
 
-st.write("Hello World")
 nome = st.text_input('Digite o seu nome:')
 if nome == '':
     st.markdown('O STREAMLIT RODOU!')
