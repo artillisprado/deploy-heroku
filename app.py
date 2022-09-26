@@ -9,6 +9,8 @@ st.set_page_config(
     }
 )
 
+st.write('Olá ufrpe')
+
 nome = st.text_input('Digite o seu nome:')
 if nome == '':
     st.markdown('O STREAMLIT RODOU!')
